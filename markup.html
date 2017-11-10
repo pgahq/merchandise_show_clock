@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<!-- Call jQuery 1.7+ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Final Countdown for jQuery v2.2.0 -->
+<script src="jquery.countdown.js"></script>
+<!-- Countdown Clock Styles -->
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="pga-countdown">
+  <div class="omega-countdown">
+    <h2>2018 PGA Merchandise Show</h2>
+    <div id="omega-countdown"></div>
+  </div>
+  <p><a href="http://www.omegawatches.com/" target="_blank"><img src="OMEGA_logo.png" alt="OMEGA"></a></p>
+</div>
+<!-- Calling the Countdown Clock Script -->
+<script>
+	$(document).ready(function() {
+		$("#omega-countdown").countdown("01/23/2018", function(event) {
+			$(this).html(event.strftime('<div class="number"><span class="count">%D</span><span class="name">days</span></div><div class="number"><span class="count">%H</span><span class="name">hours</span></div><div class="number"><span class="count">%M</span><span class="name">minutes</span></div><div class="number"><span class="count">%S</span><span class="name">seconds</span></div>'));
+		});
+	});
+</script>
+</body>
+</html>
