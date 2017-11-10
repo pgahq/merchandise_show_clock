@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* Countdown CSS */
+.pga-countdown {
+	background-color: #EFEFEF;
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto 30px auto;
+	height: auto;
+	padding: 20px;
+	overflow: hidden;
+}
+.pga-countdown h2 {
+	display: block;
+	color: #B4975A !important;
+	text-align: center;
+	margin: 0;
+	padding: 0 0 10px 0;
+	font-size: 18px;
+	line-height: 18px;
+}
+.pga-countdown #countdown-clock {
+	display: block;
+	width: 100%;
+	overflow: hidden;
+}
+.pga-countdown .number {
+	float: left;
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+}
+.pga-countdown .count {
+	color: #656263;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 5px;
+	font-size: 32px;
+}
+@media only screen and (max-width: 64em) {
+	.pga-countdown .count {
+		font-size: 48px;
+	}
+}
+.pga-countdown .name {
+	color: #999;
+	text-transform: uppercase;
+	font-size: 14px;
+	display: block;
+	padding-bottom: 10px;
+}
+.pga-countdown p {
+	text-align: center;
+	padding: 10px 0 0 0;
+	margin-bottom: 0;
+}
