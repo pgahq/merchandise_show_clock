@@ -7,7 +7,7 @@ body{
 	background-color: #EFEFEF;
 	width: 100%;
 	max-width: 300px;
-	margin: 0 auto 30px auto;
+	margin: 0 auto 0 auto;
 	height: auto;
 	overflow: hidden;
 }
