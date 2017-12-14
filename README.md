@@ -13,4 +13,7 @@ Implementation steps will vary slightly depending on each individual Section's w
 
 4. Only the div pga-countdown and code inside of it is needed to be moved to the mark-up area of the Section site.
 
+Also there you can use an iFrame embed option, here is an example:
+[https://pgahq.github.io/merchandise_show_clock/iframe.html](iframe example)
+
 ![PGA Merchandise Countdown Clock](example.png)
